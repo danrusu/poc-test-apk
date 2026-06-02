@@ -7,11 +7,27 @@
     android:padding="32dp">
 
     <TextView
+        android:id="@+id/homeTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/home_title"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/a11y_success_message"
         android:text="@string/welcome_message"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_logout" />
 
 </LinearLayout>
