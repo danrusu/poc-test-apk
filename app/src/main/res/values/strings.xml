@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Login App</string>
+    <string name="app_name">DemoApp</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
     <string name="btn_login">Login</string>
-    <string name="welcome_message">Hello tester!</string>
+    <string name="welcome_message">Login successful!</string>
+    <string name="home_title">Home</string>
+    <string name="btn_logout">Logout</string>
     <string name="error_invalid_credentials">Invalid credentials. Please try again.</string>
 </resources>
